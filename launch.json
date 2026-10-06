@@ -1,0 +1,17 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Dev Is A Robot",
+    "symbol": "NODEV",
+    "decimals": 18
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Token-only launch. LaunchToken has no constructor arguments or privileged roles. No application contracts or initialization calls are required. The factory supplies liquidity, distribution and the initialization-only pool guard. Policy and signed artifact linkage are handled by services."
+}
